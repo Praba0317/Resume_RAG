@@ -312,7 +312,7 @@ app.use("/v1", retrievalRoutes);
 
 ## Verify
 
-- Existing `/v1/resume/ingest` still works.
+- Existing `/v1/resume/inject` still works.
 - Existing health endpoints still work.
 - Retrieval routes compile.
 - One `npm run dev` process serves both modules.
@@ -394,7 +394,7 @@ src/modules/retrieval/repositories/ResumeRepository.ts
 
 ## Verify
 
-A simple repository method can fe-tch the ingested sample resume by `_id`.
+A simple repository method can fetch the ingested sample resume by `_id`.
 
 ---
 
@@ -1318,7 +1318,7 @@ POST /v1/resume/parse
 POST /v1/resume/llm-parse
 POST /v1/resume/embed
 POST /v1/resume/store
-POST /v1/resume/ingest
+POST /v1/resume/inject
 ```
 
 ## Retrieval

@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap');
+
+:root { font-family: 'DM Sans', sans-serif; color: #ecf0f3; background: #101517; font-synthesis: none; text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; }
+html, body, #root { height: 100%; overflow: hidden; }
+* { box-sizing: border-box; }
+body { margin: 0; }
+button, textarea { font: inherit; }
